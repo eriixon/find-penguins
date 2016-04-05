@@ -23,18 +23,18 @@
     height: 200px;
     float: left;
     background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
-}
+    }
 .penguin2 {
     width: 200px;
     height: 200px;
     float: left;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_2.png');
 }
 .penguin3 {
     width: 200px;
     height: 200px;
     float: left;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_3.png');
 }
 .penguin4 {
     width: 200px;
@@ -74,9 +74,13 @@
 }
 
 .penguin1:hover {
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_1.png');
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1_hover.png');
     cursor: pointer;
 }
+.penguin1:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_1.png');
+}
+
 .penguin2:hover {
     background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_2.png');
     cursor: pointer;
@@ -123,5 +127,18 @@
         <div class="penguin8"></div>
         <div class="yeti"></div>
     </div>
+    <script src="https://code.jquery.com/jquery-2.2.2.js"> 
+        
+    </script>
+    <script>
+        $(document).ready( function() {
+        //This code will run after your page loads
+    $(".yeti").mousedown(function() {
+        alert("Oh no!");
+    });
+});
+    </script>
+     
+    
 </body>
 </html>
