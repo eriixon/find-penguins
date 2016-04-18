@@ -22,20 +22,24 @@ function shuffle(array) {
   for (var j, x, i = array.length; i > 0; --i) {
       
         j = Math.floor(Math.random() * i);
-
         x = pinList[--i];
         array[i] = array[j];
         array[j] = x;
     }
   return array;
 }
-shuffle(pinList);
-listPins();
-  
-$(document).ready( function() {
+
+function refresh(){   
+    var elem = document.getElementById('gameholder');
+    elem.innerHTML = null;   
+    shuffle(pinList);
+    listPins();
+    $(document).ready( function() {
    $(".yeti").mousedown(function() {
-        alert("Oh no!");
+        document.getElementById('roar').play()
         });
 });
+}
+refresh();
         
        

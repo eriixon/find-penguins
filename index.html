@@ -3,18 +3,27 @@
     <meta charset="UTF-8">
     <title>Pop-up Penguins</title>
     <link rel="stylesheet" href="game.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 
 <body>
-    <div id="gameholder">
-        <div id="title"></div>
-    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-sm-offset-1">
+                <button type="button" class="btn-one" onclick='refresh()'>
+                <img src="https://cdn4.iconfinder.com/data/icons/Primo_Icons/PNG/128x128/button_blue_repeat.png" style="vertical-align: middle"></button>
+            </div>
+            <div class="col-sm-5">
+    <audio src="http://soundbible.com/mp3/Tyrannosaurus Rex Roar-SoundBible.com-807702404.mp3" id="roar"></audio>
+    <div id="title"></div>
     
+    <div id="gameholder">
+        
+    </div>
+    </div>
+    </div>     
+</div>    
     <script src="https://code.jquery.com/jquery-2.2.2.js"></script>
     <script src="game.js"></script>
-    
-
-     
-    
 </body>
 </html>
