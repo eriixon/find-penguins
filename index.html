@@ -2,143 +2,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Pop-up Penguins</title>
+    <link rel="stylesheet" href="game.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
-<style>
-    
-  body {
-  background-color: #ccf5f5;
-  }
-#gameholder {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    }
-#title {
-    width: 600px;
-    height: 150px;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_title.png');
-    }
-.penguin1 {
-    width: 200px;
-    height: 200px;
-    float: left;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
-    }
-.penguin2 {
-    width: 200px;
-    height: 200px;
-    float: left;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_2.png');
-}
-.penguin3 {
-    width: 200px;
-    height: 200px;
-    float: left;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_3.png');
-}
-.penguin4 {
-    width: 200px;
-    height: 200px;
-    float: left;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
-}
-.penguin5 {
-    width: 200px;
-    height: 200px;
-    float: left;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
-}
-.penguin6 {
-    width: 200px;
-    height: 200px;
-    float: left;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
-}
-.penguin7 {
-    width: 200px;
-    height: 200px;
-    float: left;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
-}
-.penguin8 {
-    width: 200px;
-    height: 200px;
-    float: left;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
-}
-.yeti {
-    width: 200px;
-    height: 200px;
-    float: left;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
-}
 
-.penguin1:hover {
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1_hover.png');
-    cursor: pointer;
-}
-.penguin1:active {
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_1.png');
-}
-
-.penguin2:hover {
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_2.png');
-    cursor: pointer;
-}
-.penguin3:hover {
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_3.png');
-    cursor: pointer;
-}
-.penguin4:hover {
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_4.png');
-    cursor: pointer;
-}
-.penguin5:hover {
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_5.png');
-    cursor: pointer;
-}
-.penguin6:hover {
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_6.png');
-    cursor: pointer;
-}
-.penguin7:hover {
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_7.png');
-    cursor: pointer;
-}
-.penguin8:hover {
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_8.png');
-    cursor: pointer;
-}
-.yeti:hover {
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/yeti.png');
-    cursor: pointer;
-}
-</style>
 <body>
-    <div id="gameholder">
-        <div id="title"></div>
-        <div class="penguin1"></div>
-        <div class="penguin2"></div>
-        <div class="penguin3"></div>
-        <div class="penguin4"></div>
-        <div class="penguin5"></div>
-        <div class="penguin6"></div>
-        <div class="penguin7"></div>
-        <div class="penguin8"></div>
-        <div class="yeti"></div>
-    </div>
-    <script src="https://code.jquery.com/jquery-2.2.2.js"> 
+    <div class="container-fluid">
+    <div class="row">
         
-    </script>
-    <script>
-        $(document).ready( function() {
-        //This code will run after your page loads
-    $(".yeti").mousedown(function() {
-        alert("Oh no!");
-    });
-});
-    </script>
-     
-    
+        <div class="col-xs-2">
+                <button type="button" class="btn-one" onclick='refresh()'>
+                <img src="https://cdn4.iconfinder.com/data/icons/Primo_Icons/PNG/128x128/button_blue_repeat.png" style="vertical-align: middle"></button>
+        </div>
+            
+        <div class="col-xs-10">
+            <div class="col-xs-10 title">
+                <img class="center-block" src="https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_title.png" alt="">
+            </div>
+            <div class="col-xs-12" id="gameholder"> </div>
+        </div>
+    </div>     
+  </div>
+  
+    <audio src="http://soundbible.com/mp3/Tyrannosaurus Rex Roar-SoundBible.com-807702404.mp3" id="roar"></audio>    
+    <script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+    <script src="game.js"></script>
 </body>
 </html>

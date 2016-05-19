@@ -1,0 +1,129 @@
+body, .container, .row {
+  background-color: #ccf5f5;
+  height: 100%;
+  
+  }
+ .btn-one{
+     margin-top:350px;
+     border: none;
+     background-color: transparent;
+  }
+  
+.gameholder {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.pin {
+    width: 200px;
+    height: 200px;
+    float: left;   
+}
+    
+.penguin1 {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
+    }
+.penguin1:hover {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1_hover.png');
+    cursor: pointer;
+}
+.penguin1:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_1.png');
+}
+    
+  
+    
+.penguin2 {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_2.png');
+}
+.penguin2:hover {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_2_hover.png');
+    cursor: pointer;
+}
+.penguin2:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_2.png');
+}
+
+.penguin3 {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_3.png');
+}
+.penguin3:hover {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_3_hover.png');
+    cursor: pointer;
+}
+.penguin3:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_3.png');
+}
+
+.penguin4 {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_4.png');
+}
+.penguin4:hover {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_4_hover.png');
+    cursor: pointer;
+}
+.penguin4:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_4.png');
+}
+.penguin5 {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_5.png');
+}
+.penguin5:hover {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_5_hover.png');
+    cursor: pointer;
+}
+.penguin5:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_5.png');
+}
+.penguin6 {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_6.png');
+}
+.penguin6:hover {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_6_hover.png');
+    cursor: pointer;
+}
+.penguin6:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_6.png');
+}
+.penguin7 {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_7.png');
+}
+.penguin7:hover {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_7_hover.png');
+    cursor: pointer;
+}
+.penguin7:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_7.png');
+}
+.penguin8 {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_8.png');
+}
+.penguin8:hover {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_8_hover.png');
+    cursor: pointer;
+}
+.penguin8:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_8.png');
+}
+.penguin9 {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_2.png');
+}
+.penguin9:hover {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_4_hover.png');
+    cursor: pointer;
+}
+.penguin9:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_6.png');
+}
+
+.yeti {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1.png');
+    }
+.yeti:hover {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_1_hover.png');
+    cursor: pointer;
+    }
+.yeti:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/yeti.png');
+    }
