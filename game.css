@@ -1,5 +1,7 @@
 body, .container, .row {
   background-color: #ccf5f5;
+  height: 100%;
+  
   }
  .btn-one{
      margin-top:350px;
@@ -7,18 +9,12 @@ body, .container, .row {
      background-color: transparent;
   }
   
-#gameholder {
-    width: 650px;
+.gameholder {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
     }
-#title {
-    width: 600px;
-    height: 150px;
-    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_title.png');
-    }
-    
+
 .pin {
     width: 200px;
     height: 200px;
@@ -109,6 +105,16 @@ body, .container, .row {
 }
 .penguin8:active {
     background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_8.png');
+}
+.penguin9 {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_2.png');
+}
+.penguin9:hover {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/mound_4_hover.png');
+    cursor: pointer;
+}
+.penguin9:active {
+    background-image:url('https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_6.png');
 }
 
 .yeti {

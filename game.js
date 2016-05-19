@@ -7,6 +7,7 @@ var pinList = [
     "penguin6",
     "penguin7",
     "penguin8",
+    "penguin9",
     "yeti"    
 ];
 
